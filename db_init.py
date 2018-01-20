@@ -22,3 +22,5 @@ def create_table():
     "parent_reply(parent_id TEXT PRIMARY KEY, comment_id TEXT UNIQUE, "+
     "parent TEXT, comment TEXT, subreddit TEXT, unix INT, score INT)")
 
+if __name__ == '__main__':
+    create_table()
